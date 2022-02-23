@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Parcial_grupo4</string>
+
+    <string name="titulo">BIENVENIDOS A LA APP DE PARCIAL 1</string>
+    <string name="menu">MENU PRINCIPAL</string>
+    <string name="firma"> DERECHOS RESEVADOS AL GRUPO 4</string>
+    <string name="integrantes">INTEGRANTES DEL GRUPO 4</string>
+    <string name="integ">JOSE LUIS MUÑOZ PADILLA USIS043721</string>
+    <string name="inte">RIGOBERTO ALEXANDER MEJIA SORTO USIS034921</string>
+    <string name="integra">KATERIN ESTELA ORELLANA HERNANDEZ UJSIS035821</string>
+    <string name="pdatos">PASAR DATOS</string>
+    <string name="edatos">ENVIAR DATOS</string>
+    <string name="tab">MENU TABS</string>
+    <string name="acelerometro">ACELEROMETRO</string>
+    <string name="sensor">SENSOR DE APROXIMIDAD</string>
+    <string name="rmusic">REPRODUCTOR DE MUSICA</string>
+    <string name="acerca_de">ACERCA DE</string>
+
 </resources>
