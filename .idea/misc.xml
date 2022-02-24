@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mejia/Parcial_grupo4/app/src/main/res/layout/activity_acelerometro.xml" value="0.17" />
+        <entry key="..\:/Users/Mejia/Parcial_grupo4/app/src/main/res/layout/activity_aproximidad.xml" value="0.14" />
+        <entry key="..\:/Users/Mejia/Parcial_grupo4/app/src/main/res/layout/activity_enviar_datos.xml" value="0.25" />
+        <entry key="..\:/Users/Mejia/Parcial_grupo4/app/src/main/res/layout/activity_integrantes.xml" value="0.17" />
+        <entry key="..\:/Users/Mejia/Parcial_grupo4/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Mejia/Parcial_grupo4/app/src/main/res/layout/activity_reproductor.xml" value="0.18" />
+        <entry key="..\:/Users/Mejia/Parcial_grupo4/app/src/main/res/layout/activity_tabs.xml" value="0.25" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_acelerometro.xml" value="0.2" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_aproximidad.xml" value="0.2" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_enviar_datos.xml" value="0.2" />
