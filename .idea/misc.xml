@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_acelerometro.xml" value="0.2" />
+        <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_aproximidad.xml" value="0.2" />
+        <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_enviar_datos.xml" value="0.2" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_integrantes.xml" value="0.2" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_recibir_datos.xml" value="0.2" />
         <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_reproductor.xml" value="0.2" />
+        <entry key="..\:/Users/mau_e/AndroidStudioProjects/Parcial_grupo4/app/src/main/res/layout/activity_tabs.xml" value="0.2" />
       </map>
     </option>
   </component>
