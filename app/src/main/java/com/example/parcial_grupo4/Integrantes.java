@@ -15,5 +15,6 @@ public class Integrantes extends AppCompatActivity {
     }
     public void regresar(View view){
         Intent volver = new Intent(this,MainActivity.class);
+        startActivity(volver);
     }
 }

@@ -38,5 +38,6 @@ public class Enviar_datos extends AppCompatActivity {
     }
     public void regresar(View view){
         Intent volver = new Intent(this,MainActivity.class);
+        startActivity(volver);
     }
 }

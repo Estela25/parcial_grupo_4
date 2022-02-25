@@ -2,6 +2,7 @@ package com.example.parcial_grupo4;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -10,6 +11,7 @@ import android.hardware.SensorManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -81,5 +83,9 @@ public class Acelerometro extends AppCompatActivity {
     protected void onResume(){
         star();
         super.onResume();
+    }
+    public void regresar(View view) {
+        Intent volver = new Intent(this, MainActivity.class);
+        startActivity(volver);
     }
 }

@@ -3,6 +3,7 @@ package com.example.parcial_grupo4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.hardware.Sensor;
 import android.os.Bundle;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -44,8 +45,9 @@ public class Aproximidad extends AppCompatActivity {
             public void onAccuracyChanged(android.hardware.Sensor sensor, int i) {
 
             }
-    };
-}
+        };
+        start();
+    }
     public void start(){
         sensorManager.registerListener(sensorEventListener,Sensor,2000*1000);
     }
@@ -65,5 +67,7 @@ public class Aproximidad extends AppCompatActivity {
     }
     public void regresar(View view){
         Intent volver = new Intent(this,MainActivity.class);
+        startActivity(volver);
     }
-    }
+
+}

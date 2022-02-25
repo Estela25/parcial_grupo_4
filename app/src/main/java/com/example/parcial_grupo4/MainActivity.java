@@ -15,20 +15,26 @@ public class MainActivity extends AppCompatActivity {
     }
     public void acelerometro(View view){
         Intent aceler = new Intent(this,Acelerometro.class);
+        startActivity(aceler);
     }
     public void aproximidad(View view){
         Intent aprox = new Intent(this,Aproximidad.class);
+        startActivity(aprox);
     }
     public void enviar(View view){
         Intent enviard = new Intent(this,Enviar_datos.class);
+        startActivity(enviard);
     }
     public void integrantes(View view){
         Intent inte = new Intent(this,Integrantes.class);
+        startActivity(inte);
     }
     public void reproductor(View view){
         Intent repro = new Intent(this,Reproductor.class);
+        startActivity(repro);
     }
     public void tabs(View view){
         Intent ta = new Intent(this,Tabs.class);
+        startActivity(ta);
     }
 }

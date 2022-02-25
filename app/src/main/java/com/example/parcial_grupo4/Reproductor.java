@@ -8,8 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Reproductor extends AppCompatActivity implements
-    View.OnClickListener {
+public class Reproductor extends AppCompatActivity implements View.OnClickListener {
+
         Button iniciar,parar;
         MediaPlayer mediaPlayer;
 
@@ -18,9 +18,9 @@ public class Reproductor extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reproductor);
 
-        iniciar = (Button)findViewById(R.id.iniciar);
-        parar = (Button)findViewById(R.id.detener);
-        mediaPlayer = MediaPlayer.create(this,R.raw.heart);
+        iniciar = (Button)findViewById(R.id.btIniciar);
+        parar = (Button)findViewById(R.id.btDetener);
+        mediaPlayer = MediaPlayer.create(this,R.raw.rawr);
 
         iniciar.setOnClickListener(this);
         parar.setOnClickListener(this);
@@ -28,20 +28,20 @@ public class Reproductor extends AppCompatActivity implements
     @Override
     public void onClick(View View) {
         switch (View.getId()){
-            case R.id.iniciar:
+            case R.id.btIniciar:
                 play();
-            case R.id.detener:
+            case R.id.btDetener:
                 stop();
                 break;
         }
     }
-    private void play(){
-        mediaPlayer.start();
-    }
-    private void stop(){
-        mediaPlayer.stop();
-    }
+    private void play(){ mediaPlayer.start();}
+
+    private void stop(){ mediaPlayer.stop();}
+
+
     public void regresar(View view){
         Intent volver = new Intent(this,MainActivity.class);
+        startActivity(volver);
     }
 }
