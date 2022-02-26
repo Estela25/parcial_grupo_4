@@ -1,17 +1,14 @@
 package com.example.parcial_grupo4;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
 
+import com.example.parcial_grupo4.PagerController.PagerController;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
-
-import Controlador.PagerController;
 
 
 public class Tabs extends AppCompatActivity {

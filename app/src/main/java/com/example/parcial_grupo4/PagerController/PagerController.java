@@ -1,10 +1,9 @@
-package Controlador;
+package com.example.parcial_grupo4.PagerController;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.fragment.app.FragmentStatePagerAdapter;
 
 public class PagerController extends FragmentPagerAdapter {
 
@@ -27,8 +26,8 @@ public class PagerController extends FragmentPagerAdapter {
             case 2:
                 return new vd3();
             default:
-        return null;
-    }
+                return null;
+        }
 
 
     }
@@ -39,3 +38,5 @@ public class PagerController extends FragmentPagerAdapter {
         return numoftabs;
     }
 }
+
+

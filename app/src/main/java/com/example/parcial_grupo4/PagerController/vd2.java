@@ -1,4 +1,4 @@
-package Controlador;
+package com.example.parcial_grupo4.PagerController;
 
 import android.os.Bundle;
 
