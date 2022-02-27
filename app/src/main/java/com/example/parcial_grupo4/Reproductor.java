@@ -2,6 +2,7 @@ package com.example.parcial_grupo4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -20,7 +21,7 @@ public class Reproductor extends AppCompatActivity implements View.OnClickListen
 
         iniciar = (Button)findViewById(R.id.btIniciar);
         parar = (Button)findViewById(R.id.btDetener);
-        mediaPlayer = MediaPlayer.create(this,R.raw.rawr);
+        mediaPlayer = MediaPlayer.create(this,R.raw.rave);
 
         iniciar.setOnClickListener(this);
         parar.setOnClickListener(this);
@@ -35,9 +36,13 @@ public class Reproductor extends AppCompatActivity implements View.OnClickListen
                 break;
         }
     }
-    private void play(){ mediaPlayer.start();}
+    private void play(){
+        mediaPlayer.start();
+    }
 
-    private void stop(){ mediaPlayer.stop();}
+    private void stop(){
+        mediaPlayer.stop();
+    }
 
 
     public void regresar(View view){
