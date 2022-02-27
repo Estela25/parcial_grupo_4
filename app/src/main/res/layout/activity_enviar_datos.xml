@@ -4,60 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/parte6"
     tools:context=".Enviar_datos">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="320dp"
-        android:layout_height="41dp"
+        android:layout_width="392dp"
+        android:layout_height="57dp"
+        android:fontFamily="sans-serif-black"
         android:text="@string/titulo2"
-        android:textSize="20sp"
+        android:textColor="@color/claro"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <EditText
         android:id="@+id/etNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-black"
         android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textColor="@color/claro"
+        android:textColorHighlight="@color/claro2"
+        android:textColorHint="@color/claro2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.226" />
+        app:layout_constraintVertical_bias="0.226"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/etEdad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-black"
         android:hint="@string/edad"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/claro2"
+        android:textColor="@color/claro2"
+        android:textColorHighlight="@color/claro2"
+        android:textColorHint="@color/claro2"
+        android:textColorLink="@color/claro2"
+        android:textCursorDrawable="@color/claro2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338" />
+        app:layout_constraintVertical_bias="0.338"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btEnviardatos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
+        android:fontFamily="sans-serif-black"
         android:text="@string/enviar"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439" />
+        app:layout_constraintVertical_bias="0.439"
+        tools:ignore="TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -72,14 +100,21 @@
 
     <Button
         android:id="@+id/br1"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
+        android:fontFamily="sans-serif-black"
         android:onClick="regresar"
         android:text="@string/regresar"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941" />
+        app:layout_constraintVertical_bias="0.941"
+        tools:ignore="TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
