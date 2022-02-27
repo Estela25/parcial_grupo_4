@@ -1,15 +1,16 @@
 package com.example.parcial_grupo4;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.Color;
+
 
 public class Aproximidad extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class Aproximidad extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aproximidad);
+        setContentView(R.layout.activity_main);
 
         final TextView texto = (TextView)findViewById(R.id.tvSensor);
 
@@ -43,8 +44,9 @@ public class Aproximidad extends AppCompatActivity {
             public void onAccuracyChanged(android.hardware.Sensor sensor, int i) {
 
             }
+
         };
-        start();
+
     }
     public void start(){
         sensorManager.registerListener(sensorEventListener,Sensor,2000*1000);
@@ -52,7 +54,6 @@ public class Aproximidad extends AppCompatActivity {
     public void stop(){
         sensorManager.unregisterListener(sensorEventListener);
     }
-
     @Override
     protected void onPause(){
         stop();
@@ -62,10 +63,6 @@ public class Aproximidad extends AppCompatActivity {
     protected void onResume() {
         start();
         super.onResume();
-    }
-    public void regresar(View view){
-        Intent volver = new Intent(this,MainActivity.class);
-        startActivity(volver);
     }
 
 }

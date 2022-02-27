@@ -21,7 +21,12 @@
     <string name="nombre">ESCRIBA SU NOMBRE</string>
     <string name="edad">ESCRIBA SU EDAD</string>
     <string name="regresar">REGRESAR</string>
+    <string name="app">APLICACION DE PARCIAL</string>
+    <string name="version">VERSION DE APLICACION</string>
+    <string name="nom">1.1.0</string>
+    <string name="resumen">La app fue creada para la presentacion del parcial en la cual trabajamos con proyectos de semanas anteriores y los modificamos para que esten en una sola app,trabajando en equipo y utilizando los conocimientos adquiridos</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

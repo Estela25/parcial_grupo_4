@@ -38,4 +38,8 @@ public class MainActivity extends AppCompatActivity {
         Intent aprox = new Intent(this,Aproximidad.class);
         startActivity(aprox);
     }
+    public void acerca_de(View view){
+        Intent acerca = new Intent(this,Acerca_de.class);
+        startActivity(acerca);
+    }
 }

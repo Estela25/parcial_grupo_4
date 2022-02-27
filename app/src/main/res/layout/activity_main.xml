@@ -147,6 +147,7 @@
         android:layout_height="wrap_content"
         android:background="@color/morado"
         android:fontFamily="sans-serif-black"
+        android:onClick="acerca_de"
         android:text="@string/acerca_de"
         android:textColor="@color/morado2"
         android:textSize="20sp"
