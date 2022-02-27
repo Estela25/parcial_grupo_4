@@ -13,7 +13,7 @@
     <string name="tab">MENU TABS</string>
     <string name="acelerometro">ACELEROMETRO</string>
     <string name="sensor">SENSOR DE APROXIMIDAD</string>
-    <string name="rmusic">REPRODUCTOR DE MUSICA</string>
+    <string name="rvideo">REPRODUCTOR DE VIDEO</string>
     <string name="acerca_de">ACERCA DE</string>
     <string name="titulo2">¿ERES MAYOR O MENOR DE EDAD?</string>
     <string name="enviar">ENVIAR DATOS</string>
@@ -21,8 +21,6 @@
     <string name="nombre">ESCRIBA SU NOMBRE</string>
     <string name="edad">ESCRIBA SU EDAD</string>
     <string name="regresar">REGRESAR</string>
-    <string name="iniciar">INICIAR</string>
-    <string name="detener">DETENER</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

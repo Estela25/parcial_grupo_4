@@ -4,121 +4,187 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/parte1"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="370dp"
+        android:layout_width="wrap_content"
         android:layout_height="44dp"
+        android:fontFamily="sans-serif-black"
         android:text="@string/titulo"
+        android:textColor="@color/acua"
         android:textSize="20sp"
+        android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.019" />
 
     <Button
         android:id="@+id/b1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/salmon"
+        android:fontFamily="sans-serif-black"
         android:onClick="enviar"
         android:text="@string/edatos"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.377"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/b2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
+        android:fontFamily="sans-serif-black"
         android:onClick="tabs"
         android:text="@string/tab"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.461"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/b3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
+        android:fontFamily="sans-serif-black"
         android:onClick="aproximidad"
         android:text="@string/sensor"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.549"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/b4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
         android:onClick="acelerometro"
         android:text="@string/acelerometro"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintVertical_bias="0.643"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/b5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
+        android:fontFamily="sans-serif-black"
         android:onClick="reproductor"
-        android:text="@string/rmusic"
+        android:text="@string/rvideo"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.655" />
+        app:layout_constraintVertical_bias="0.729"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/b6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
+        android:fontFamily="sans-serif-black"
         android:onClick="integrantes"
         android:text="@string/integrantes"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.743" />
+        app:layout_constraintVertical_bias="0.816"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/b7"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@color/morado"
+        android:fontFamily="sans-serif-black"
         android:text="@string/acerca_de"
+        android:textColor="@color/morado2"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="@color/morado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.825" />
+        app:layout_constraintVertical_bias="0.902"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
         android:text="@string/menu"
-        android:textSize="20sp"
+        android:textColor="@color/acua"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.204" />
+        app:layout_constraintVertical_bias="0.301" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="255dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/telefono" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

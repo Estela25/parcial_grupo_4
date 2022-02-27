@@ -67,6 +67,6 @@ public class Tabs extends AppCompatActivity {
         });
 
         viewPager.addOnPageChangeListener(new
-                TabLayout.TabLayoutOnPageChangeListener((tablayout)));
+                TabLayout.TabLayoutOnPageChangeListener(tablayout));
     }
 }

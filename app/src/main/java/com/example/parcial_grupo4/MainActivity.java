@@ -17,10 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Intent aceler = new Intent(this,Acelerometro.class);
         startActivity(aceler);
     }
-    public void aproximidad(View view){
-        Intent aprox = new Intent(this,Aproximidad.class);
-        startActivity(aprox);
-    }
+
     public void enviar(View view){
         Intent enviard = new Intent(this,Enviar_datos.class);
         startActivity(enviard);
@@ -36,5 +33,9 @@ public class MainActivity extends AppCompatActivity {
     public void tabs(View view){
         Intent ta = new Intent(this,Tabs.class);
         startActivity(ta);
+    }
+    public void aproximidad(View view){
+        Intent aprox = new Intent(this,Aproximidad.class);
+        startActivity(aprox);
     }
 }
