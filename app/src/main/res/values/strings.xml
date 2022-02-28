@@ -25,6 +25,9 @@
     <string name="version">VERSION DE APLICACION</string>
     <string name="nom">1.1.0</string>
     <string name="resumen">La app fue creada para la presentacion del parcial en la cual trabajamos con proyectos de semanas anteriores y los modificamos para que esten en una sola app,trabajando en equipo y utilizando los conocimientos adquiridos</string>
+    <string name="jurgo1">MINECRAFT</string>
+    <string name="juego2">CALL OF DUTY</string>
+    <string name="juego3">FIVE NIGHTS AT FREDDYS</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
